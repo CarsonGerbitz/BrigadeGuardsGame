@@ -20,7 +20,7 @@ if Char.lower() == 'finrear' or Char.lower() == 'f':
     Char_agl = 25
     Char_alive = 1
     Turn = 0
-if Char.lower() == 'chrono' or Char.lower == 'c':
+if Char.lower() == 'chrono' or Char.lower() == 'c':
     Char_name = 'Chrono'
     Char_hp_current = 50
     Char_hp_max = 50
