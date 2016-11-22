@@ -1,6 +1,6 @@
 def Attack():
     print("How will you attack?")
-    action = input("Melee or Magic? ")
+    action = input("With your Weapon or with Magic? ")
     if action.lower() == 'melee':
         from CharSetup import Char_name
         if Char_name.lower() == 'wake':
@@ -10,9 +10,11 @@ def Attack():
         elif Char_name.lower() == 'chrono':
             print("You use Evelyn(musket) and you can either shoot 'Rapid Fire' or 'Precise'")
         elif Char_name.lower() == 'wake' or Char_name.lower == 'finrear':
-            action = input("How do you want to swing? ")
+            Char_wep_current = input("How do you want to swing? ")
+            Char_att_current = 1
         elif Char_name.lower() == 'chrono':
-            action = input("How do you want to shoot? ")
+            Char_wep_current = input("How do you want to shoot? ")
+            Char_att_current = 1
     if action.lower() == 'magic':
         from CharSetup import Char_name
         if Char_name.lower() == 'wake':
@@ -21,4 +23,5 @@ def Attack():
             print("Your spells are 'Heavy Heal', 'Bolt Strike', and 'Buckle Armour'")
         elif Char_name.lower() == 'chrono':
             print("Your spells are 'Mid Heal', 'Barrel Induction', and 'Reinforced Pellets'")
-        action = input("What spell will you use? ")
+        Char_spell_current = input("What spell will you use? ")
+        Char_att_current == 2
