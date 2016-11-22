@@ -3,5 +3,5 @@ def GuardsGameHandler():
     import Battle
     CharSetup
     HstlSetup
-    Battle.Battle()
+    Battle
 GuardsGameHandler()
