@@ -1,6 +1,6 @@
 print("Who do you want to play as?")
-Char = input("Wake, Dave, or J? ")
-if Char.lower() == 'wake':
+Char = input("Wake, Dave, or Chrono? ")
+if Char.lower() == 'wake' or Char.lower() == 'w':
     Char_name = 'Wake'
     Char_hp_current = 50
     Char_etr_max = 50
@@ -10,7 +10,7 @@ if Char.lower() == 'wake':
     Char_agl = 75
     Char_alive = 1
     Turn = 0
-if Char.lower() == 'finrear':
+if Char.lower() == 'finrear' or Char.lower() == 'f':
     Char_name = 'Finrear'
     Char_hp_current = 50
     Char_hp_max = 50
@@ -20,7 +20,7 @@ if Char.lower() == 'finrear':
     Char_agl = 25
     Char_alive = 1
     Turn = 0
-if Char.lower() == 'chrono':
+if Char.lower() == 'chrono' or Char.lower == 'c':
     Char_name = 'Chrono'
     Char_hp_current = 50
     Char_hp_max = 50
