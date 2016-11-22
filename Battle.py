@@ -1,7 +1,7 @@
 from HstlSetup import Hstl_name, Hstl_alive
 from CharSetup import Char_alive
 import Act
-print("Something dark approches!")
+print("A Vileblood approches!")
 print("You should probably fight them.")
 while Hstl_alive == 1 and Char_alive == 1:
     Act.act() 
