@@ -10,8 +10,8 @@ if Char.lower() == 'wake':
     Char_agl = 75
     Char_alive = 1
     Turn = 0
-if Char.lower() == 'dave':
-    Char_name = 'Dave'
+if Char.lower() == 'finrear':
+    Char_name = 'Finrear'
     Char_hp_current = 50
     Char_hp_max = 50
     Char_etr_max = 50
@@ -20,8 +20,8 @@ if Char.lower() == 'dave':
     Char_agl = 25
     Char_alive = 1
     Turn = 0
-if Char.lower() == 'j':
-    Char_name = 'J'
+if Char.lower() == 'chrono':
+    Char_name = 'Chrono'
     Char_hp_current = 50
     Char_hp_max = 50
     Char_etr_max = 50
