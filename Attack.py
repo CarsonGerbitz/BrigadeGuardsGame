@@ -15,10 +15,10 @@ def Attack():
         elif Char_name.lower() == 'chrono':
             Char_wep_current = input("How do you want to shoot? ")
             Char_att_current = 1
-    if action.lower() == 'magic':
+    if action.lower() == 'Ether':
         from CharSetup import Char_name
         if Char_name.lower() == 'wake':
-            print("Your spells are 'Light Heal', 'Bloodtinge', and 'Swift Walk'")
+            print("Your spells are 'Light Heal', 'Blood Rush', and 'Mutilation'")
         elif Char_name.lower() == 'finrear':
             print("Your spells are 'Heavy Heal', 'Bolt Strike', and 'Buckle Armour'")
         elif Char_name.lower() == 'chrono':
