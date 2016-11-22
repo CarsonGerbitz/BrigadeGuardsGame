@@ -4,9 +4,11 @@ def act():
     if Turn %2==0:
         action = input("What shall you do? ")
         if (action).lowercase == 'help':
-            Help()
+            Help.Help()
+            act()
         elif (action).lowercase == 'check':
-            Check()
+            Check.Check()
+            act()
         #elif (action).lowercase == 'attack':
         #    Attack()
         #elif (action).lowercase == 'defend':

@@ -7,4 +7,4 @@ def Check():
         print(Hstl_hp_current + "/" + Hstl_hp_max)
     else:
         print("You can CHECK " + Char_name + " or " + Hstl_name)
-        check()
+        Check()
