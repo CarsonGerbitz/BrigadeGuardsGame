@@ -1,4 +1,6 @@
 def Check():
+    from CharSetup import Char_name, Char_hp_current, Char_hp_max
+    from HstlSetup import Hstl_name, Hstl_hp_current, Hstl_hp_max
     print("Who shall we check?")
     action = input(Char_name + " or " + Hstl_name + "?")
     if (action).lowercase == Char_name or (action).lowercase == 'me':

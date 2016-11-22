@@ -1,6 +1,6 @@
 def act():
     from CharSetup import Turn
-    import Check, Help  #, Attack, Defend, Wait
+    import Check, Help, Attack  #, Defend, Wait
     if Turn %2==0:
         action = input("What shall you do? ")
         if (action).lowercase == 'help':
