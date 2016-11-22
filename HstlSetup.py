@@ -19,7 +19,7 @@ if Hstl == 2:
     Hstl_agl = 50
     Hstl_alive = 1
 if Hstl == 3:
-    Hstl_name = 'Nightmare'
+    Hstl_name = 'Mensis'
     Hstl_hp_current = 75
     Hstl_hp_max = 75
     Hstl_etr_max = 100
