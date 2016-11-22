@@ -5,18 +5,27 @@ def act():
         action = input("What shall you do? ")
         if action.lowercase() == 'help':
             Help.Help()
+            turn = turn + 1
             act()
         elif action.lowercase() == 'check':
             Check.Check()
+            turn = turn + 1
             act()
         elif action.lowercase() == 'attack':
             Attack.Attack()
-        #elif (action).lowercase == 'defend':
-        #    Defend()
-        #elif (action).lowercase == 'wait':
-        #    Wait()
+            turn = turn + 1
+            act()
+        elif (action).lowercase == 'defend':
+            Defend.Defend()
+            turn = turn + 1
+            act()
+        elif (action).lowercase == 'wait':
+            Wait.Wait()
+            turn = turn + 1
+            act()
         else:
             print("Please try that again")
             act()
-    #else:
-    #    Enemy_act()
+    else:
+        Enemy_act()
+        turn = turn + 1
