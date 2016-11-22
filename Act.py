@@ -9,8 +9,8 @@ def act():
         elif (action).lowercase == 'check':
             Check.Check()
             act()
-        #elif (action).lowercase == 'attack':
-        #    Attack()
+        elif (action).lowercase == 'attack':
+            Attack.Attack()
         #elif (action).lowercase == 'defend':
         #    Defend()
         #elif (action).lowercase == 'wait':
