@@ -1,4 +1,5 @@
-print("Who do you want to play as?")
+print("Hello good Hunter.")
+print("You have 3 Guaridans to choose from.")
 Char = input("Wake, Dave, or Chrono? ")
 if Char.lower() == 'wake' or Char.lower() == 'w':
     Char_name = 'Wake'
