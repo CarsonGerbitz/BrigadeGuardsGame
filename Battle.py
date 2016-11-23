@@ -6,8 +6,13 @@ print("You should probably fight them.")
 while Hstl_alive == 1 and Char_alive == 1:
     Act.act() 
 if Hstl_alive == 1 and Char_alive == 0:
-    print("GAME OVER!!!")
+    print("The Vilebool has ruled over you in the fight.")
 elif Hstl_alive == 0 and Char_alive == 1:
-    print("You have defeated " + Hstl_name)
+    print("You have defeated the Vileblood.")
+    print("Its Dark Beast burst into a a brightlight and faded away.")
 else:
     print("How did you get here?")
+    print("I mean honestly... how did you get here.")
+    print("From what we (the Devs) know of, there really isn't any way to get here.")
+    print("So... you messed up in some way shape or form.")
+    print("So... good job...")
