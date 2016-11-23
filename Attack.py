@@ -1,6 +1,6 @@
 def Attack():
     print("How will you attack?")
-    action = input("With your Weapon or with Magic? ")
+    action = input("With your Weapon or with Ether? ")
     if action.lower() == 'melee':
         from CharSetup import Char_name
         if Char_name.lower() == 'wake':
