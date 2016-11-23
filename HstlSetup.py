@@ -13,9 +13,9 @@ if Hstl == 2:
     Hstl_name = 'Paarl'
     Hstl_hp_current = 50
     Hstl_hp_max = 50
-    Hstl_def = 100
     Hstl_etr_max = 100
     Hstl_etr_current = 100
+    Hstl_def = 100
     Hstl_agl = 50
     Hstl_alive = 1
 if Hstl == 3:
