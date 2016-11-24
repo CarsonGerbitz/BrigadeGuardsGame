@@ -18,7 +18,7 @@ def Attack():
             print("You use the Great Hammer and you can do either a 'Heavy Attack' or a ' Medium Attack'")
             Char_wep_current = input("How do you want to swing? ")
             Char_att_current = 1
-            if Char wep_current.lower() == 'ma' or Char wep_current.lower() == 'medium attack':
+            if Char_wep_current.lower() == 'ma' or Char_wep_current.lower() == 'medium attack':
                 Char_wep_current = 'medium attack'
             elif Char_wep_current.lower() == 'ha' or Char_wep_current.lower() == 'heavy attack':
                 Char_wep_current = 'heavy attack'
@@ -32,7 +32,7 @@ def Attack():
             if Char_wep_current.lower() == 'rf' or Char_wep_current.lower() == 'rapid fire':
                 Char_wep_current = 'rapid fire'
             elif Char_wep_current.lower() == 'p' or Char_wep_current.lower() == 'precise':
-                Char_wep_current = 'precise':
+                Char_wep_current = 'precise'
             else:
                 print("That is not an attack you can use, please try again.")
                 Attack()

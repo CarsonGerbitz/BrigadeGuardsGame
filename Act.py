@@ -32,6 +32,6 @@ def act():
                 act()
         if Char_alive == 0 or Hstl_alive == 0:
             break
-        else:
-            Enemy_act()
-            turn = turn + 1
+        #else:
+        #    Enemy_act()
+        #    turn = turn + 1
