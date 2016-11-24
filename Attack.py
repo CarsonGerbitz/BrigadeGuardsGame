@@ -12,7 +12,7 @@ def Attack():
             elif Char_wep_current.lower() == 'ha' or Char_wep_current.lower() == 'heavy attack':
                 Char_wep_current = 'heavy attack'
             else:
-                print("Please try again!")
+                print("That is not an attack you can use, please try again.")
                 Attack()
         elif Char_name.lower() == 'finrear':
             print("You use the Great Hammer and you can do either a 'Heavy Attack' or a ' Medium Attack'")
@@ -23,7 +23,7 @@ def Attack():
             elif Char_wep_current.lower() == 'ha' or Char_wep_current.lower() == 'heavy attack':
                 Char_wep_current = 'heavy attack'
             else:
-                print("Please try again!")
+                print("That is not an attack you can use, please try again.")
                 Attack()
         elif Char_name.lower() == 'chrono':
             print("You use Evelyn(musket) and you can either shoot 'Rapid Fire' or 'Precise'")
@@ -34,7 +34,7 @@ def Attack():
             elif Char_wep_current.lower() == 'p' or Char_wep_current.lower() == 'precise':
                 Char_wep_current = 'precise':
             else:
-                print("Please try again!")
+                print("That is not an attack you can use, please try again.")
                 Attack()
     if action.lower() == 'Ether':
         from CharSetup import Char_name
@@ -49,7 +49,7 @@ def Attack():
             elif Char_spell_current.lower() == 'm' or Char_spell_current.lower() == 'mutilation':
                 Char_spell_current = 'mutilation'
             else:
-                print("Please try again!")
+                print("That is not an attack you can use, please try again.")
         elif Char_name.lower() == 'finrear':
             print("Your spells are 'Heavy Heal', 'Bolt Strike', and 'Buckle Armor'")
             Char_spell_current = input("What spell will you use? ")
@@ -61,7 +61,7 @@ def Attack():
             elif Char_spell_current.lower() == 'bs' or Char_spell_current.lower() == 'bolt strike':
                 Char_spell_current = 'mutilation'
             else:
-                print("Please try again!")
+                print("That is not an attack you can use, please try again.")
         elif Char_name.lower() == 'chrono':
             print("Your spells are 'Mid Heal', 'Barrel Induction', and 'Reinforced Pellets'")
             Char_spell_current = input("What spell will you use? ")
@@ -73,4 +73,4 @@ def Attack():
             elif Char_spell_current.lower() == 'rp' or Char_spell_current.lower() == 'reinforced pellets':
                 Char_spell_current = 'reinforced pellets'
             else:
-                print("Please try again!")
+                print("That is not an attack you can use, please try again.")

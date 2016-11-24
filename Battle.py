@@ -6,10 +6,13 @@ print("You should probably fight them.")
 while Hstl_alive == 1 and Char_alive == 1:
     Act.act() 
 if Hstl_alive == 1 and Char_alive == 0:
-    print("The Vilebool has ruled over you in the fight.")
+    print("You have failed Young Hunter.")
+    print("The Vilebloods have succesfully summoned the Harbingers.")
 elif Hstl_alive == 0 and Char_alive == 1:
     print("You have defeated the Vileblood.")
     print("Its Dark Beast burst into a a brightlight and faded away.")
+    print("You have succesfully prevented the summoning of the Harbingers")
+    print("Good job Young Hunter.")
 else:
     print("How did you get here?")
     print("I mean honestly... how did you get here.")
