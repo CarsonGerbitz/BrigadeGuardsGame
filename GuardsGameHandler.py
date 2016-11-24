@@ -1,8 +1,11 @@
 def GuardsGameHandler():
-    import CharSetup, HstlSetup
-    import Battle
-    from CharSetup import CharSelect
-    CharSetup.CharSelect()
-    HstlSetup
-    Battle
+    def Setup():
+        import CharSetup, HstlSetup
+        CharSetup.CharSelect()
+        HstlSetup
+    def Start():
+        import Battle
+        Battle
+    Setup()
+    Start()
 GuardsGameHandler()

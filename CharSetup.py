@@ -1,3 +1,5 @@
+Char_alive = 0
+Turn = 0
 def CharSelect():
     print("Hello Young Hunter.")
     print("You have 3 Guaridans to choose from.")
@@ -13,7 +15,6 @@ def CharSelect():
         Char_alive = 1
         Char_buff_left = 0
         Char_buff_max = 6
-        Turn = 0
     elif Char.lower() == 'finrear' or Char.lower() == 'f':
         Char_name = 'Finrear'
         Char_hp_current = 50
@@ -25,7 +26,6 @@ def CharSelect():
         Char_alive = 1
         Char_buff_left = 0
         Char_buff_max = 6
-        Turn = 0
     elif Char.lower() == 'chrono' or Char.lower() == 'c':
         Char_name = 'Chrono'
         Char_hp_current = 50
@@ -37,7 +37,6 @@ def CharSelect():
         Char_alive = 1
         Char_buff_left = 0
         Char_buff_max = 6
-        Turn = 0
     else:
         print("That is not a valid choice.")
         print("Please try again.")
