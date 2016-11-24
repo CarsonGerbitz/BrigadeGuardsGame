@@ -1,5 +1,5 @@
 def CharSelect():
-    print("Hello good Hunter.")
+    print("Hello Young Hunter.")
     print("You have 3 Guaridans to choose from.")
     Char = input("Wake, Finrear, or Chrono? ")
     if Char.lower() == 'wake' or Char.lower() == 'w':
