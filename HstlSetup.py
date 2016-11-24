@@ -9,6 +9,8 @@ if Hstl == 1:
     Hstl_def = 75
     Hstl_agl = 25
     Hstl_alive = 1
+    Hstl_buff_left = 0
+    Hstl_buff_max = 6
 if Hstl == 2:
     Hstl_name = 'Paarl'
     Hstl_hp_current = 100
@@ -18,6 +20,8 @@ if Hstl == 2:
     Hstl_def = 100
     Hstl_agl = 50
     Hstl_alive = 1
+    Hstl_buff_left = 0
+    Hstl_buff_max = 6
 if Hstl == 3:
     Hstl_name = 'Mensis'
     Hstl_hp_current = 125
@@ -27,3 +31,5 @@ if Hstl == 3:
     Hstl_def = 50
     Hstl_agl = 75
     Hstl_alive = 1
+    Hstl_buff_left = 0
+    Hstl_buff_max = 6

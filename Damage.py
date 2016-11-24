@@ -3,8 +3,8 @@ def Char():
     if Char_att_current == 1:
         import random
         from Attack import Char_wep_current
-        from HstlSetup import Hstl_hp_current
-        from CharSetup import Char_name, Char_hp_current, Char_hp_max, Char_buff_left, Char_buff_max, Char_ether_current, Char_ether_max
+        from HstlSetup import Hstl_name, Hstl_hp_current, Hstl_hp_max, Hstl_buff_left, Hstl_buff_max, Hstl_ether_current
+        from CharSetup import Char_name, Char_hp_current, Char_hp_max, Char_buff_left, Char_buff_max, Char_ether_current
         if Char_name.lower() == 'wake' and Char_wep_current.lower() == 'light attack':
             Hit_roll = random.randint(1,100)
             Hit_chance = 90
@@ -149,4 +149,5 @@ def Char():
                 else:
                     Char_buff_left = Char_buff_left + 3
 def Hstl():
+    Hstl_dmg_current = 0
     #PLACEHOLDER
