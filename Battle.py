@@ -2,7 +2,7 @@ from HstlSetup import Hstl_name, Hstl_alive
 from CharSetup import Char_alive
 import Act
 print("A Vileblood approches!")
-print("You should probably fight them.")
+print("You must prevent them from summoning the Harbingers!")
 while Hstl_alive == 1 and Char_alive == 1:
     Act.act() 
 if Hstl_alive == 1 and Char_alive == 0:
