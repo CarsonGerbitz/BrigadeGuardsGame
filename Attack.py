@@ -26,7 +26,7 @@ def Attack():
                 print("That is not an attack you can use, please try again.")
                 Attack()
         elif Char_name.lower() == 'chrono':
-            print("You use Evelyn(musket) and you can either shoot 'Rapid Fire' or 'Precise'")
+            print("You use Evelyn(Repeating Musket) and you can either shoot 'Rapid Fire' or 'Precise'")
             Char_wep_current = input("How do you want to shoot? ")
             Char_att_current = 1
             if Char_wep_current.lower() == 'rf' or Char_wep_current.lower() == 'rapid fire':
