@@ -1,5 +1,5 @@
 import random
-Hstl = random.randint(1,3)
+Hstl = random.randint(1,4)
 if Hstl == 1:
     Hstl_name = 'Thansen'
     Hstl_hp_current = 150
