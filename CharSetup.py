@@ -4,6 +4,7 @@ def CharSelect():
     Char = input("Wake, Finrear, Viktor, or Chrono? ")
     global Char_alive, Turn, Char_name, Char_hp_current, Char_etr_max, Char_hp_max, Char_etr_current, Char_def, Char_agl, Char_buff_left, Char_buff_max
     if Char.lower() == 'wake' or Char.lower() == 'w':
+        '''Bloodtinge, Scythe'''
         Char_name = 'Wake'
         Char_hp_current = 50
         Char_etr_max = 50
@@ -16,6 +17,7 @@ def CharSelect():
         Char_buff_left = 0
         Char_buff_max = 6
     elif Char.lower() == 'finrear' or Char.lower() == 'f':
+        '''Bolt, Great Hammer'''
         Char_name = 'Finrear'
         Char_hp_current = 50
         Char_hp_max = 50
@@ -28,6 +30,7 @@ def CharSelect():
         Char_buff_left = 0
         Char_buff_max = 6
     elif Char.lower() == 'chrono' or Char.lower() == 'c':
+        '''Flare, Repeating Pistol/Musket'''
         Char_name = 'Chrono'
         Char_hp_current = 50
         Char_hp_max = 50
@@ -40,6 +43,7 @@ def CharSelect():
         Char_buff_left = 0
         Char_buff_max = 6
     elif Char.lower() == 'viktor' or Char.lower() == 'v':
+        '''Soultinge, Bearded Axe'''
         Char_name = 'Viktor'
         Char_hp_current = 75
         Char_hp_max = 75
