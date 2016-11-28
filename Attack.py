@@ -36,6 +36,17 @@ def Attack():
             else:
                 print("That is not an attack you can use, please try again.")
                 Attack()
+        elif Char_name.lower() == 'viktor':
+            print("You use a Bearded Axe and you can do either a 'Light Attack' or a 'Heavy Attack'")
+            Char_wep_current = input("How do you want to swing? ")
+            Char_att_current = 1
+            if Char_wep_current.lower() == 'la' or Char_wep_current.lower() == 'light attack':
+                Char_wep_current = 'light attack'
+            elif Char_wep_current.lower() == 'ha' or Char_wep_current.lower() == 'heavy attack':
+                Char_wep_current = 'heavy attack'
+            else:
+                print("That is not an attack you can use, please try again.")
+                Attack()
     if action.lower() == 'Ether':
         from CharSetup import Char_name
         if Char_name.lower() == 'wake':
@@ -57,9 +68,9 @@ def Attack():
             if Char_spell_current.lower() == 'hh' or Char_spell_current.lower() == 'heavy heal':
                 Char_spell_current = 'heavy heal'
             elif Char_spell_current.lower() == 'ba' or Char_spell_current.lower() == 'buckle armor':
-                Char_spell_current = 'blood rush'
+                Char_spell_current = 'buckle armor'
             elif Char_spell_current.lower() == 'bs' or Char_spell_current.lower() == 'bolt strike':
-                Char_spell_current = 'mutilation'
+                Char_spell_current = 'bolt strike'
             else:
                 print("That is not an attack you can use, please try again.")
         elif Char_name.lower() == 'chrono':
@@ -72,5 +83,17 @@ def Attack():
                 Char_spell_current = 'barrel induction'
             elif Char_spell_current.lower() == 'rp' or Char_spell_current.lower() == 'reinforced pellets':
                 Char_spell_current = 'reinforced pellets'
+            else:
+                print("That is not an attack you can use, please try again.")
+        elif Char_name.lower() == 'viktor':
+            print("Your spells are 'Mid Heal', 'Soul Armor', and 'Wrath'")
+            Char_spell_current = input("What spell will you use? ")
+            Char_att_current == 2
+            if Char_spell_current.lower() == 'mh' or Char_spell_current.lower() == 'mid heal':
+                Char_spell_current = 'mid heal'
+            elif Char_spell_current.lower() == 'sa' or Char_spell_current.lower() == 'soul armor':
+                Char_spell_current = 'soul armor'
+            elif Char_spell_current.lower() == 'w' or Char_spell_current.lower() == 'wrath':
+                Char_spell_current = 'wrath'
             else:
                 print("That is not an attack you can use, please try again.")
