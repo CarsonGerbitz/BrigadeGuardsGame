@@ -33,3 +33,14 @@ if Hstl == 3:
     Hstl_alive = 1
     Hstl_buff_left = 0
     Hstl_buff_max = 6
+if Hstl == 4:
+    Hstl_name = 'Phogna'
+    Hstl_hp_current = 200
+    Hstl_hp_max = 175
+    Hstl_etr_max = 100
+    Hstl_etr_current = 100
+    Hstl_def = 50
+    Hstl_agl = 25
+    Hstl_alive = 1
+    Hstl_buff_left = 0
+    Hstl_buff_max = 6
