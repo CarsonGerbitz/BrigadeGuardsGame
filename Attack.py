@@ -86,13 +86,13 @@ def Attack():
             else:
                 print("That is not an attack you can use, please try again.")
         elif Char_name.lower() == 'viktor':
-            print("Your spells are 'Mid Heal', 'Soul Armor', and 'Wrath'")
+            print("Your spells are 'Mid Heal', 'Soul Fracture', and 'Wrath'")
             Char_spell_current = input("What spell will you use? ")
             Char_att_current == 2
             if Char_spell_current.lower() == 'mh' or Char_spell_current.lower() == 'mid heal':
                 Char_spell_current = 'mid heal'
-            elif Char_spell_current.lower() == 'sa' or Char_spell_current.lower() == 'soul armor':
-                Char_spell_current = 'soul armor'
+            elif Char_spell_current.lower() == 'sf' or Char_spell_current.lower() == 'soul fracture':
+                Char_spell_current = 'soul fracture'
             elif Char_spell_current.lower() == 'w' or Char_spell_current.lower() == 'wrath':
                 Char_spell_current = 'wrath'
             else:
