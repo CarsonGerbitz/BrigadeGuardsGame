@@ -7,6 +7,8 @@ def Evade():
     random_evade = random.randint(1,100)
     random_hit = random.randint(1,100)
     random_TB = random.randint(1,100)
+    Evd_Final_Check = 0
+    '''1 is miss, 0 is hit'''
     Hit_check = 0
     '''1 is hit, 0 is miss'''
     Evd_check = 0
@@ -32,12 +34,12 @@ def Evade():
         if random_hit < Char_Hit_chance:
             Hit_check == 1
     if Hit_check > Evd_check:
-        '''The attack hit'''
+        Evd_Final_Check == 0
     if Hit_check < Evd_check:
-        '''The attack missed'''
+        Evd_Final_Check == 1
     if Hit_check == Evd_check:
         if random_TB > 50:
-            '''The attack hit'''
+            Evd_Final_Check == 0
         else:
-            '''The attack missed'''
+            Evd_Final_Check == 1
         
