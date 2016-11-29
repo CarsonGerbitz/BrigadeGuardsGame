@@ -60,10 +60,10 @@ def Char():
             Evade()
             if Evd_Final_Check = 0:
                 Char_dmg_current = 10
-                Hit_roll = random.randint(1,100)
+                Evade()
                 if Char_buff_current == 'rp' and Char_buff_left >= 1:
                     Char_dmg_current = Char_dmg_current + 15
-                if Hit_roll <= Char_Hit_chance:
+                if Evd_Final_Check = 0:
                     Char_dmg_current = Char_dmg_current + 10
                     print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
                 else:
