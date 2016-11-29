@@ -67,3 +67,5 @@ def CharSelect():
 #Luther: Soultinge, Dual Saber
 #Adrina: Bloodtinge, Rapier
 #Ulysses: Flare, Great Axe
+#Damion: Bloodtinge, Repeating Musket
+#Mathius: Bolt, Mace
