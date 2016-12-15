@@ -59,8 +59,10 @@ def CharSelect():
         print("That is not a valid choice.")
         print("Please try again.")
         CharSelect()
+        
 
 #Here and on are more character ideas.
+#Thane: Soul, Spear
 #Parker: Flare, Curved Broadsword
 #Wilhelm: Bolt, Crossbow
 #Victoria: Bloodtinge, Katana
