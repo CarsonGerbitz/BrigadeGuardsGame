@@ -1,8 +1,8 @@
-def Evade():
-    from Damage import Char_Hit_chance, Hstl_Hit_chance
+def Evade(HC,Char_Function):
+    #from Damage import Char_Hit_chance, Hstl_Hit_chance
     import random
     random = random.randint(1,100)
-    Char_Function = 6
+    #Char_Function = 6
     if Char_Function == 0:
         Func = .33
     if Char_Function == 1:
