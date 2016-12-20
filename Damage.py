@@ -1,9 +1,10 @@
 def Char():
     from Attack import Char_att_current
-    from EvdCheck import Evd_Final_Check, Evade
+    from EvdCheck import HDC_Final_Check, CDC_Final_Check, Evade
     from Attack import Char_wep_current
     #from HstlSetup import Hstl_name, Hstl_hp_current, Hstl_hp_max, Hstl_buff_left, Hstl_buff_max, Hstl_ether_current
     from CharSetup import Char_name, Char_hp_current, Char_hp_max, Char_buff_left, Char_buff_max, Char_ether_current
+    Char_Hit_Chance = 100
     if Char_att_current == 2:
         from Attack import Char_spell_current
         if Char_name.lower() == 'wake' and Char_spell_current.lower() == 'light heal':
@@ -33,9 +34,10 @@ def Char():
                 else:
                     Char_hp_current = Char_hp_current + 25
         elif Char_name.lower() == 'finrear' and Char_spell_current.lower() == 'bolt strike':
+            Char_Hit_Chance == 80
             if Char_ether_current >= 15:
                 Evade()
-                if Evd_Final_Check == 0:
+                if HDC_Final_Check == 0:
                     Char_dmg_current = 20
                     print("You hit with " + str(Char_spell_current.lower()) + " for " + str(Char_dmg_current) + "!")
                 else:
@@ -54,9 +56,10 @@ def Char():
                 else:
                     Char_hp_current = Char_hp_current + 20
         elif Char_name.lower() == 'chrono' and Char_spell_current.lower() == 'barrel induction':
+            Char_Hit_Chance == 100
             if Char_ether_current >= 15:
                 Evade()
-                if Evd_Final_Check == 0:
+                if HDC_Final_Check == 0:
                     Char_dmg_current = 15
                     print("You hit with " + str(Char_spell_current.lower()) + " for " + str(Char_dmg_current) + "!")
                 else:
@@ -71,7 +74,7 @@ def Char():
     elif Char_att_current == 1:
         if Char_name.lower() == 'wake' and Char_wep_current.lower() == 'light attack':
             Evade()
-            if Evd_Final_Check == 0:
+            if HDC_Final_Check == 0:
                 Char_dmg_current = 10
                 print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
                 if Char_buff_current == 'br' and Char_buff_left >= 1:
@@ -89,7 +92,7 @@ def Char():
                 print("You missed.")
         elif Char_name.lower() == 'wake' and Char_wep_current.lower() == 'heavy attack':
             Evade()
-            if Evd_Final_Check == 0:
+            if HDC_Final_Check == 0:
                 Char_dmg_current = 20
                 print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
                 if Char_buff_current == 'br' and Char_buff_left >= 1:
@@ -107,26 +110,26 @@ def Char():
                 print("You missed.")
         elif Char_name.lower() == 'finrear' and Char_wep_current.lower() == 'heavy attack':
             Evade()
-            if Evd_Final_Check == 0:
+            if HDC_Final_Check == 0:
                 Char_dmg_current = 20
                 print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
             else:
                 print("You missed.")
         elif Char_name.lower() == 'finrear' and Char_wep_current.lower() == 'medium attack':
             Evade()
-            if Evd_Final_Check == 0:
+            if HDC_Final_Check == 0:
                 Char_dmg_current = 15
                 print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
             else:
                 print("You missed.")
         elif Char_name.lower() == 'chrono' and Char_wep_current.lower() == 'rapid fire':
             Evade()
-            if Evd_Final_Check == 0:
+            if HDC_Final_Check == 0:
                 Char_dmg_current = 10
                 Evade()
                 if Char_buff_current == 'rp' and Char_buff_left >= 1:
                     Char_dmg_current = Char_dmg_current + 15
-                elif Evd_Final_Check == 0:
+                elif HDC_Final_Check == 0:
                     Char_dmg_current = Char_dmg_current + 10
                     print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
                 else:
@@ -135,7 +138,7 @@ def Char():
                 print("You missed.")
         elif Char_name.lower() == 'chrono' and Char_wep_current.lower() == 'precise':
             Evade()
-            if Evd_Final_Check == 0:
+            if HDC_Final_Check == 0:
                 Char_dmg_current = 10
                 print("You hit with " + str(Char_wep_current.lower()) + " for " + str(Char_dmg_current) + "!")
             else:
