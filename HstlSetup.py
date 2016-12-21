@@ -1,7 +1,7 @@
 import random
 Hstl = random.randint(1,4)
 if Hstl == 1:
-    Hstl_name = 'Thansen'
+    Hstl_name = 'Agro'
     Hstl_hp_current = 150
     Hstl_hp_max = 150
     Hstl_etr_max = 100
@@ -34,7 +34,7 @@ if Hstl == 3:
     Hstl_buff_left = 0
     Hstl_buff_max = 6
 if Hstl == 4:
-    Hstl_name = 'Phogna'
+    Hstl_name = 'Throne'
     Hstl_hp_current = 200
     Hstl_hp_max = 175
     Hstl_etr_max = 100
