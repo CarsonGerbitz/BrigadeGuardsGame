@@ -1,7 +1,7 @@
 def Attack():
     print("How will you attack?")
     action = input("With your Weapon or with Ether? ")
-    if action.lower() == 'melee':
+    if action.lower() == 'Weapon':
         from CharSetup import Char_name
         if Char_name.lower() == 'wake':
             print("You use the Scythe and you can do either a 'Light Attack' or a 'Heavy Attack'")

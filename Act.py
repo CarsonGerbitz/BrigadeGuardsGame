@@ -2,7 +2,7 @@ from CharSetup import Turn, Char_alive
 from HstlSetup import Hstl_alive
 def act():
     global Turn, Char_alive, Hstl_alive
-    import Check, Help, Attack  #, Defend, Wait
+    import Check, Help, Attack, Defend
     while Char_alive == 1 and Hstl_alive == 1:
         if Turn %2==0:
             action = input("What shall you do? ")
@@ -24,7 +24,7 @@ def act():
                 Turn = Turn + 1
                 act()
             elif action.lower() == 'wait':
-                Wait.Wait()
+                print("You decided to wait this turn.")
                 Turn = Turn + 1
                 act()
             else:

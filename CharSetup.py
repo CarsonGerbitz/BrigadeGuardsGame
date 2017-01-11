@@ -1,7 +1,7 @@
 def CharSelect():
     print("Hello Young Hunter.")
     print("You have 4 Guaridans to choose from.")
-    Char = input("Wake, Finrear, Viktor, or Chrono? ")
+    Char = raw_input("Wake, Finrear, Viktor, or Chrono? ")
     global Char_alive, Turn, Char_name, Char_hp_current, Char_etr_max, Char_hp_max, Char_etr_current, Char_def, Char_agl, Char_buff_left, Char_buff_max
     if Char.lower() == 'wake' or Char.lower() == 'w':
         '''Bloodtinge, Scythe'''

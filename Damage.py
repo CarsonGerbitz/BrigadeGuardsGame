@@ -150,8 +150,6 @@ def Char():
             else:
                 print("You missed.")
 def Hstl():    
-    from Attack import Char_att_current
     from EvdCheck import CDC_Final_Check, Evade
-    from Attack import Char_wep_current
     Hstl_dmg_current = 0
     #PLACEHOLDER

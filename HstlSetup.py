@@ -12,7 +12,7 @@ if Hstl == 1:
     Hstl_buff_left = 0
     Hstl_buff_max = 6
 if Hstl == 2:
-    Hstl_name = 'Phaar'
+    Hstl_name = 'Uzael'
     Hstl_hp_current = 100
     Hstl_hp_max = 100
     Hstl_etr_max = 100
